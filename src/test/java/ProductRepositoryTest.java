@@ -6,14 +6,12 @@ import ru.netology.domain.Smartphone;
 import ru.netology.repository.ProductRepository;
 
 
-
 public class ProductRepositoryTest {
 
     Product book1 = new Book(01, "Книга1", 400, "Автор1");
     Product book2 = new Book(02, "Книга2", 500, "Автор2");
-    Product smartphone1 = new Smartphone(03, "Смартфон1", 3000, "Нокиа");
-    Product smartphone2 = new Smartphone(04, "Смартфон2", 10_000, "Айфон");
-
+    Product smartphone1 = new Smartphone(03, "Смартфон1", 3000, "Nokia");
+    Product smartphone2 = new Smartphone(04, "Смартфон2", 10_000, "iPhone");
 
 
     @Test
